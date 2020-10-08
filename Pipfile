@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyterlab = "*"
+jupyter-http-over-ws = "*"
+bertopic = "*"
+
+[scripts]
+enable_ws = "jupyter serverextension enable --py jupyter_http_over_ws"
+start = "jupyter notebook  --no-browser --NotebookApp.token='' --NotebookApp.allow_origin='https://colab.research.google.com' --port=9999  --NotebookApp.port_retries=0"
+
+[requires]
+python_version = "3.8"
