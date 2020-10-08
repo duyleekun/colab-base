@@ -12,7 +12,7 @@ bertopic = "*"
 
 [scripts]
 enable_ws = "jupyter serverextension enable --py jupyter_http_over_ws"
-start = "jupyter notebook  --no-browser --NotebookApp.token=$NOTEBOOK_TOKEN --NotebookApp.allow_origin='https://colab.research.google.com' --NotebookApp.port_retries=0"
+start = "jupyter notebook  --no-browser --NotebookApp.allow_origin='https://colab.research.google.com' --NotebookApp.port_retries=0"
 
 [requires]
 python_version = "3.8"
