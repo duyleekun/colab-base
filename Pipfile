@@ -9,6 +9,9 @@ verify_ssl = true
 jupyterlab = "*"
 jupyter-http-over-ws = "*"
 bertopic = "*"
+vncorenlp = "*"
+underthesea = "*"
+tqdm = "*"
 
 [scripts]
 enable_ws = "jupyter serverextension enable --py jupyter_http_over_ws"
